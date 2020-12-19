@@ -1,0 +1,8 @@
+# to build / instal the gem, copy paste the below in the command line
+gem build urlshortener.gemspec
+gem install ./urlshortener-0.0.0.gem
+
+#to test it, copy paste the below in the command line
+irb
+require 'urlshortener'
+UrlShortener.shorten('https://robustastudio.com/')
